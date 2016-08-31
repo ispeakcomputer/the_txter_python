@@ -22,7 +22,7 @@ Client(user, token, secret)
 
 Message.send(
     sender='+',
-    receiver='+17206925355',
+    receiver='+17206925366',
     text='Host is approching critical condition: Reason - LOAD > 90%',
     tag='test tag')
 # Message('m-id123213', state='sending')
