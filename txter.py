@@ -1,6 +1,11 @@
 import requests
-import mylogins
+from mylogins import user, token, secret
 
+# class Txter():
+#
+#     def __init__(message, term):
+#         self.message = message
+#         self
 #url = 'http://ip-api.com/json'
 
 #response = requests.get(url)
