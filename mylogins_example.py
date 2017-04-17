@@ -3,3 +3,6 @@
 user = ''
 token = ''
 secret = ''
+
+# This will be the number on your account that you send from
+orig=''

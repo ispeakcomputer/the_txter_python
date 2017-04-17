@@ -1,30 +1,23 @@
-import requests
-from mylogins import user, token, secret
+from bandwidth_sdk import Message
+from bandwidth_sdk import Client
+# import requests
+from mylogins import user, token, secret, orig
+Client(user, token, secret)
 
-# class Txter():
-#
-#     def __init__(message, term):
-#         self.message = message
-#         self
+class Txter:
+    def send(self,message,orig):
+        Message.send(
+          sender=orig,
+          receiver='+17206925355',
+          text=message,
+          tag='test tag')
+
+txt = Txter('this is messge', '+17206925355')
+# Message('m-id123213', state='sending')
+
 #url = 'http://ip-api.com/json'
 
 #response = requests.get(url)
 
 #print response.text
 # install sdk: pip install bandwidth_sdk
-
-from bandwidth_sdk import Message
-from bandwidth_sdk import Client
-
-print user
-print token
-print secret
-
-Client(user, token, secret)
-
-Message.send(
-    sender='+',
-    receiver='+17206925366',
-    text='Host is approching critical condition: Reason - LOAD > 90%',
-    tag='test tag')
-# Message('m-id123213', state='sending')
