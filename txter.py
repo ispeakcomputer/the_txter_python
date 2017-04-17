@@ -1,4 +1,5 @@
 import requests
+import mylogins
 
 #url = 'http://ip-api.com/json'
 
@@ -9,10 +10,6 @@ import requests
 
 from bandwidth_sdk import Message
 from bandwidth_sdk import Client
-
-user = ''
-token = 't-7vtwydiyqmn3lis67dh6hvq'
-secret = ''
 
 print user
 print token
