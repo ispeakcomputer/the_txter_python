@@ -1,23 +1,19 @@
-from bandwidth_sdk import Message
+#!/usr/bin/python
+
 from bandwidth_sdk import Client
-# import requests
 from mylogins import user, token, secret, orig
+from bandwidth_sdk import Message
+
+print "  user     " + user + "  token    " + token + "  secret    " + secret
+
 Client(user, token, secret)
 
-class Txter:
-    def send(self,message,orig):
-        Message.send(
-          sender=orig,
-          receiver='+17206925355',
-          text=message,
-          tag='test tag')
+Message.send(
+    sender='+17204647640',
+    receiver='+17206925355',
+    text='Alert - Motion Detected',
+    tag='test tag')
 
-txt = Txter('this is messge', '+17206925355')
-# Message('m-id123213', state='sending')
-
-#url = 'http://ip-api.com/json'
-
-#response = requests.get(url)
-
-#print response.text
-# install sdk: pip install bandwidth_sdk
+    # def checklen(ourmessage):
+    #     if len(ourmessage) >= 140:
+    #
