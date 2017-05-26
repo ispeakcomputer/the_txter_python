@@ -4,7 +4,7 @@ Send and receive SMS messges using Python and Bandwidth API. You just load this 
 
 # txtthing.sender('Critical Error', '3039990000')
 
-Installation
+#### Installation
 
 1. Navigate into the the_txter_python directory
 2. Install pip and virtualenv with "sudo apt-get install pip virtualenv"
