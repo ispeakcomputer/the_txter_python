@@ -2,8 +2,6 @@
 
 Send and receive SMS messges using Python and Bandwidth API. You just load this module and send our text using the following
 
-# txtthing.sender('Critical Error', '3039990000')
-
 #### Installation
 
 1. Navigate into the the_txter_python directory
